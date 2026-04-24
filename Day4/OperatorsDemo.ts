@@ -1,7 +1,7 @@
 let a: number = 10,
   b: number = 20;
 
-//Arithimetic operations
+//arithmetic operations
 
 console.log("************Arithmetic Operators********************");
 console.log(a + b);
@@ -24,7 +24,7 @@ console.log((a *= b)); //a=a*b   --->50
 console.log((a /= b)); //a =a/b  --->10
 console.log((a %= b)); //a=a%b  --->0
 
-//Realtional/Comparison Operators
+//Relational/Comparison Operators
 //Returns boolean -true/false
 // > < >= <= == != ===(Strict equality)
 console.log("********Relational Operators**********");

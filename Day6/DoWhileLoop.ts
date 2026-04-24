@@ -19,7 +19,7 @@ i++;
 }
 while(i<=5); */
 
-//Example 2: 10 9 8 ......1 (decending order)
+//Example 2: 10 9 8 ......1 (descending order)
 let i: number = 10;
 
 do {

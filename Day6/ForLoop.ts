@@ -52,3 +52,9 @@ for (i = 1; i <= 5; i++) {
 console.log(i); //6
  */
 //TestDemo
+
+for (let i = 1; i <= 10; i++) {
+    console.log("Test");
+    console.log(i);
+    console.log("Hello world");
+}

@@ -1,4 +1,4 @@
-export {};
+export { };
 //if condition
 
 /* if(condition)
@@ -13,7 +13,7 @@ if (age >= 18) {
     console.log("you are eligible for vote");
 } */
 
-//if else conditon
+//if else condition
 /*
 if (condition)
 {
@@ -107,7 +107,7 @@ default : statements;
 }
 */
 
-//Example 5: Depending on the value of day, print the coressponding day of the week
+//Example 5: Depending on the value of day, print the corresponding day of the week
 
 /*let day: number = 9;
 
@@ -117,7 +117,7 @@ switch (day) {
     break;
 
   case 2:
-    console.log("Tuseday");
+    console.log("Tuesday");
     break;
 
   case 3:
@@ -157,7 +157,7 @@ switch (x - y) {
     break;
 
   case 10:
-    console.log("Reslut is ten");
+    console.log("Result is ten");
     break;
 
   default:

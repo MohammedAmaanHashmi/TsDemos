@@ -17,7 +17,7 @@ Array
 Class
 Function
 Interface
-Touple etc..
+Tuple etc..
 */
 
 //
@@ -40,8 +40,8 @@ console.log(typeof age); */
 */
 
 /* let firstName:string="John";
-let lastName:string="Keneddy";
-//console.log("Hello",firstName,lastName); Hello John Keneddy
+let lastName:string="Kennedy";
+//console.log("Hello",firstName,lastName); Hello John Kennedy
 
 let greeting:string=`Hello ${firstName} ${lastName}`;
 
@@ -76,7 +76,7 @@ value=true;
 console.log(value);
 console.log(typeof(value)); */
 
-//6. Union Type  - Combine multiple tyeps
+//6. Union Type  - Combine multiple types
 
 /* let id:number|string|boolean;
 id="ABCD123";
