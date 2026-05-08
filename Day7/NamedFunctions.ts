@@ -77,5 +77,4 @@ function calculateDiscount(price: number, rate: number = 0.50): void {
 }
 
 calculateDiscount(1000, 0.30)
-
 calculateDiscount(1000);

@@ -1,4 +1,4 @@
-export{}
+export { }
 /// Arrow Functions / Lambda Function
 
 /* Lambda refers to anonymous functions in programming.
@@ -27,9 +27,43 @@ Syntax:
 
 greet(); */
 
-let res=(a:number, b:number):number=>{
-    return a*b;
+//Example 2: Arrow functions with Parameters and a Return type
+
+/* let add = (a: number, b: number): number => {
+  return a * b;
 }
 
-console.log(res(10,20));
+console.log(add(10, 20)); */
 
+// Example 3: Arrow function with implicit return
+
+/* let multiply = (a: number, b: number): number => a * b;
+console.log(multiply(10,29));
+ */
+
+// Example 4:  Arrow functions with optional parameters
+/* let display = (id: number, name: string, email?: string) => {
+  console.log("Id:", id);
+  console.log("name:", name);
+  if (email != undefined)
+    console.log("email:", email);
+
+}
+display(21, "Amaan", "amaanhashmi25@gmail.com");
+display(24, "Abbas"); */
+
+// Example 6: Named function with default parameters
+
+/* let calculateDiscount = (price: number, item: number = 2): void => {
+  let discount = price * item;
+  console.log("Discount", discount);
+}
+calculateDiscount(100, 5);
+calculateDiscount(100); */
+
+//Example 6: Arrow functions with Rest parameters
+/* let findElements = (...elements: (number | string)[]): number => elements.length;
+console.log(findElements(1,2,3,4));
+console.log(findElements(1,"amaan","Enter"));
+console.log(findElements(1,"amaanhashmi@gmail.com",4,"John","internet"));
+ */

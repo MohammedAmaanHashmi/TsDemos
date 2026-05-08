@@ -1,3 +1,4 @@
+export {};
 // Variable: container which can hold/store some data
 
 // Var, let, Const
