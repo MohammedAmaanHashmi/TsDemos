@@ -1,4 +1,4 @@
-export { };
+export {};
 //if condition
 
 /* if(condition)

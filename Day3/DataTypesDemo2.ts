@@ -51,11 +51,11 @@ console.log(greeting); */
 //3. BOOLEAN TYPE
 //Represents true/false Values
 
-let isStudent:boolean=true;
-let hasJob:boolean=false;
+let isStudent: boolean = true;
+let hasJob: boolean = false;
 
-console.log("Is Student?",isStudent);
-console.log("Has Job?",hasJob);
+console.log("Is Student?", isStudent);
+console.log("Has Job?", hasJob);
 
 //4. Null and undefined
 //Special types for absence of value
@@ -99,11 +99,9 @@ console.log(id); */
 
 show(); */
 
-
-function sum(x:number, y:number):number
-{
-    return (x+y);
+function sum(x: number, y: number): number {
+  return x + y;
 }
 
-let res:number=sum(10,20);
+let res: number = sum(10, 20);
 console.log(res);

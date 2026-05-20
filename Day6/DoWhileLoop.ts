@@ -1,4 +1,4 @@
-export { }
+export {};
 //do-while loop : A do-while loop always executes at least once before checking the condition.
 
 /*
@@ -11,7 +11,7 @@ do
 I
 */
 
-//Example1: 
+//Example1:
 /* let i:number=10;
 do{
 console.log(i);
@@ -23,7 +23,6 @@ while(i<=5); */
 let i: number = 10;
 
 do {
-    console.log(i);
-    i--;
-}
-while (i >= 1);
+  console.log(i);
+  i--;
+} while (i >= 1);

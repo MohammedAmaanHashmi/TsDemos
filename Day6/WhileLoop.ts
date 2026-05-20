@@ -1,4 +1,4 @@
-export { }
+export {};
 
 //while loop : A while loop executes as long as the condition is true.
 
@@ -30,7 +30,7 @@ while(i<=10)
     i+=2; //i=i+2;
 } */
 
-// Method2: 
+// Method2:
 /* let i: number = 1;
 
 while (i <= 10) {
@@ -69,5 +69,5 @@ while (i >= 1) {
 
 //Infinite loop - when the condition never become false them it will go to infinite loop
 while (true) {
-console.log(1);
+  console.log(1);
 }

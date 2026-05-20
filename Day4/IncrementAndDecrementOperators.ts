@@ -1,4 +1,4 @@
-export { }
+export {};
 // Increment ++
 //Decrement --
 
@@ -28,4 +28,3 @@ console.log(x);
 
 // Example 3: Named function with Rest parameters
 // Rest parameters don't restrict the number of values that you can pass to a function.
-

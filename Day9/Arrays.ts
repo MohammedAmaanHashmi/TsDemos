@@ -1,4 +1,4 @@
-export { }
+export {};
 /*  
  Arrays in TypeScript  
  ---  
@@ -28,7 +28,14 @@ names[3] = "Scott";
 let empNames: Array<string> = ["John", "Smith", "Peter", "Scott"];
 let empIds: Array<number> = [101, 102, 103, 104];
 
-let data: Array<string | number> = ["John", 101, "Smith", 102, "Peter", "Scott"];
+let data: Array<string | number> = [
+  "John",
+  101,
+  "Smith",
+  102,
+  "Peter",
+  "Scott",
+];
 
 let mixedData: Array<any> = [1, "John", true, null];
 
@@ -43,7 +50,6 @@ console.log("Size of an Array:", empNames.length); //4 (How many values stored)
 /* for (let i = 0; i <= 4; i++) {
 
 } */
-
 
 // for (let i = 0; i <= empNames.length - 1; i++) { //i<=empNames.length-1
 //     console.log(empNames[i]); //i is respresenting an index
@@ -67,15 +73,13 @@ for (let i in empIds) {
 // Search an element in a n array using function
 
 function search(a: number, arr: number[]): boolean {
-
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === a) {
-            return true; //Element found
-        }
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === a) {
+      return true; //Element found
     }
+  }
 
-    return false;
-
+  return false;
 }
 
 /* let arr: number[] = [10, 20, 30, 50];
@@ -83,19 +87,16 @@ function search(a: number, arr: number[]): boolean {
 console.log("Element found: ", search(30, arr)); //true
 console.log("Element found: ", search(3, arr)); //false */
 
-
 //Example 5: A functions takes an Array and returns an array
 function capitalizeWords(arr: string[]): string[] {
+  let result: string[] = [];
 
-    let result: string[] = [];
+  for (let i = 0; i < arr.length; i++) {
+    result[i] = arr[i].toUpperCase();
+  }
 
-    for (let i = 0; i < arr.length; i++) {
-
-        result[i] = arr[i].toUpperCase();
-    }
-
-    return result;
+  return result;
 }
 
-let words: string[] = ["hello", "world", "Typescript"]
+let words: string[] = ["hello", "world", "Typescript"];
 console.log(capitalizeWords(words));

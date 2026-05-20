@@ -1,7 +1,6 @@
 export {};
 //break
 
-
 /*
 for (let i = 1; i <= 5; i++) {
 
@@ -14,13 +13,8 @@ for (let i = 1; i <= 5; i++) {
 
 //continue
 for (let i = 1; i <= 10; i++) {
-
-    if (i == 5 || i == 3 || i == 7) {
-        continue;
-    }
-    console.log(i);
-    
+  if (i == 5 || i == 3 || i == 7) {
+    continue;
+  }
+  console.log(i);
 }
-
-
-

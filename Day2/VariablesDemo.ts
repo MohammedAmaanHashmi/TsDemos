@@ -18,7 +18,7 @@ export {};
 // 3) Re-declaration
 // 4)Re-initialization/Re-assignment
 // 5) Hoisting
-// 
+//
 
 //Scope Accesible area (Funcitonal scope(var) & Block Scope(let,Const))
 
@@ -50,17 +50,17 @@ varScope(); */
 
 blockScope(); */
 
-//Example3: 
+//Example3:
 function scopeDiff() {
-    if (true) {
-        var var1 = 10;
-        let var2 = 20;
-        const var3 = 30;
-        // console.log(var1);
-        // console.log(var2);
-        // console.log(var3);
-    }
-   /*  console.log(var1); //access - functional 
+  if (true) {
+    var var1 = 10;
+    let var2 = 20;
+    const var3 = 30;
+    // console.log(var1);
+    // console.log(var2);
+    // console.log(var3);
+  }
+  /*  console.log(var1); //access - functional 
     console.log(var2); //Cannot access - block
     console.log(var3);  //Cannot access - block */
 }
@@ -104,9 +104,9 @@ console.log(country);
 const planet="Mars";
 console.log(planet); */
 
- //4) Re-initialization/Re-assignment
- //var and let - Re-assignment Allowed
- //const - Re-assignment Not allowed (Only constants allowed- cannot change the value)
+//4) Re-initialization/Re-assignment
+//var and let - Re-assignment Allowed
+//const - Re-assignment Not allowed (Only constants allowed- cannot change the value)
 
 // Example 1: var allows re-assignment
 /* var age=25;
@@ -136,5 +136,3 @@ console.log(a); */
 /* console.log(a); //Not initialized
 const a=10;
 console.log(a); */
-
-

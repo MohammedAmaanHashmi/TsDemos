@@ -1,4 +1,4 @@
-﻿export { }
+﻿export {};
 // Named Function: A function that is declared with a name.
 
 /* Syntax
@@ -28,7 +28,6 @@ console.log(res);
 console.log(addNumbers(10, 20)); */
 //console.log(addNumbers(10, 20,1)); //Compile Error: Expected 2 arguments, but got 3.
 //console.log(addNumbers(10)); //Expected 2 arguments, but got 1.
-
 
 //Example 3: Need function with Rest parameters
 /*
@@ -69,12 +68,11 @@ console.log(findElements("John","ui","Amaan","telegram")); //4 */
 displayDetails(123, "scott", "scott@gamil.com");
 displayDetails(21, "Amaan"); */
 
-
 // Example 6: Named function with Default Parameters
-function calculateDiscount(price: number, rate: number = 0.50): void {
-    let discount = price * rate;
-    console.log("Discount Amount", discount);
+function calculateDiscount(price: number, rate: number = 0.5): void {
+  let discount = price * rate;
+  console.log("Discount Amount", discount);
 }
 
-calculateDiscount(1000, 0.30)
+calculateDiscount(1000, 0.3);
 calculateDiscount(1000);

@@ -1,4 +1,4 @@
-export { }
+export {};
 
 // For Loop: A for loop is typically used when the number of iterations is known beforehand.
 
@@ -54,7 +54,7 @@ console.log(i); //6
 //TestDemo
 
 for (let i = 1; i <= 10; i++) {
-    console.log("Test");
-    console.log(i);
-    console.log("Hello world");
+  console.log("Test");
+  console.log(i);
+  console.log("Hello world");
 }

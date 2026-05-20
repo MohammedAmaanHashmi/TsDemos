@@ -1,4 +1,4 @@
-export { }
+export {};
 /// Arrow Functions / Lambda Function
 
 /* Lambda refers to anonymous functions in programming.

@@ -20,13 +20,12 @@ greet("John", showMessage) */
 
 //Example 2:
 function sum(a: number, b: number, callBack: (result: number) => void) {
-    let result = a + b;
-    displayResult(result);
+  let result = a + b;
+  displayResult(result);
 }
 
-
 function displayResult(result: number): void {
-    console.log(result);
+  console.log(result);
 }
 
 sum(10, 20, displayResult);

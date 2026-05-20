@@ -1,4 +1,4 @@
-export { };
+export {};
 //Ternary/conditonal operators
 
 //?:
@@ -13,5 +13,3 @@ console.log(result); */
 let age: number = 30;
 let result: string = age >= 18 ? "Adult" : "Minor";
 console.log(result); //Adult
-
-
